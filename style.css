@@ -559,8 +559,15 @@ p{
 @media (max-width: 768px) {
     .testimonial-col {
         flex-basis: 100%; 
+        max-width: 100%;
     }
-}
+    
+     .testimonials {
+            width: 80%; 
+            padding-top: 50px; 
+        }
+    
+    }
 
 /*--Services-page--*/
 
